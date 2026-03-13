@@ -1,11 +1,8 @@
 {
   "buildCommand": "cd frontend && npm install && npm run build",
   "outputDirectory": "frontend/dist",
-  "installCommand": "pip install -r api/requirements.txt",
-  "framework": null,
   "functions": {
     "api/index.py": {
-      "runtime": "python3.9",
       "maxDuration": 30
     }
   },
